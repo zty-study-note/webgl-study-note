@@ -5,6 +5,7 @@ import { headConfig } from "./config/head";
 import { navConfig } from "./config/nav";
 import { themeConfig } from "./config/theme";
 import { routerConfig } from "./config/router";
+import { viteConfig } from "./config/vite";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -30,4 +31,7 @@ export default defineConfig({
 
   // markdown 配置
   markdown: markdownConfig,
+
+  // vite 配置
+  vite: viteConfig,
 });
