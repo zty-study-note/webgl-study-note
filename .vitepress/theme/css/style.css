@@ -1,0 +1,47 @@
+@media (min-width: 960px) {
+    .item.grid-4 {
+        width: calc(100% / 2) !important;
+    }
+
+    /* .VPHome .container {
+        flex-direction: column-reverse !important;
+    } */
+}
+
+/* .VPHome .container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.VPHome .container .main {
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    z-index: 10;
+    order: 2;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.VPHome .container .image {
+    margin: 0;
+}
+
+.VPHome .container .image-container {
+    display: block;
+    transform: unset;
+    position: relative;
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+}
+
+.VPHome .container .main .actions {
+    justify-content: center;
+} */
+
+/* .vp-doc img {
+    margin: 0 auto;
+} */
