@@ -1,7 +1,7 @@
 export const sidebarConfig = [
   {
     text: "基础",
-    items: [{ text: "学习规划", link: "/basic/start" }],
+    items: [{ text: "WebGL初识", link: "/basic/start" }],
   },
   {
     text: "进阶",

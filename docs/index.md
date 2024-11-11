@@ -11,11 +11,11 @@ hero:
     alt: demo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: WebGL初识
+      link: /basic/start
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: markdown示例
+      link: /markdown-examples
 
 features:
   - icon: 🦾
