@@ -15,6 +15,7 @@ export default defineConfig({
   head: headConfig as any,
   // base: "/demo/",
   // srcDir: "docs",
+  appearance: false,
   themeConfig: {
     // 主题配置
     ...(themeConfig as any),
