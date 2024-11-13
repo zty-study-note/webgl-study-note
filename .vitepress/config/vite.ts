@@ -32,5 +32,13 @@ export const viteConfig = {
       "@": fileURLToPath(new URL("./", import.meta.url)),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: "modern-compiler", // or 'modern'
+      },
+    },
+  },
+
   ssr: { noExternal: ["@arco-design/web-vue"] },
 };

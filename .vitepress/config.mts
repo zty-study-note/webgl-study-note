@@ -17,14 +17,14 @@ export default defineConfig({
   // srcDir: "docs",
   appearance: false,
   themeConfig: {
-    // 主题配置
-    ...(themeConfig as any),
-
     // 导航配置
     nav: navConfig,
 
     // 侧栏配置
     sidebar: sidebarConfig,
+
+    // 主题配置
+    ...(themeConfig as any),
   },
 
   // 路由配置
