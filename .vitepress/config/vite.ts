@@ -1,4 +1,5 @@
 import vue from "@vitejs/plugin-vue";
+import { fileURLToPath, URL } from "node:url";
 import { vitePluginForArco } from "@arco-plugins/vite-vue";
 import AutoImport from "unplugin-auto-import/vite";
 import Components from "unplugin-vue-components/vite";
@@ -26,5 +27,10 @@ export const viteConfig = {
       ],
     }),
   ],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./", import.meta.url)),
+    },
+  },
   ssr: { noExternal: ["@arco-design/web-vue"] },
 };

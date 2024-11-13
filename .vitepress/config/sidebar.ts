@@ -4,6 +4,7 @@ export const sidebarConfig = [
     items: [
       { text: "WebGL初识", link: "/basic/start" },
       { text: "绘制点", link: "/basic/point" },
+      { text: "绘制三角形", link: "/basic/triangle" },
     ],
   },
   {
