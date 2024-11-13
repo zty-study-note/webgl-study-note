@@ -1,6 +1,6 @@
 <template>
   <div class="point-demo">
-    <a-card class="flex-center">
+    <a-card class="flex-center" ref="cardRef">
       <canvas ref="canvasRef" width="500" height="300"></canvas>
     </a-card>
   </div>
@@ -11,6 +11,7 @@ import { ref, onMounted } from "vue";
 import vertex from "./point.vs";
 import frag from "./point.fs";
 
+const cardRef = ref();
 const canvasRef = ref();
 
 // 创建着色器
@@ -94,6 +95,7 @@ onMounted(() => {
         // // 清空画布
         // gl.clearColor(0, 1, 1, 1);
         // gl.clear(gl.COLOR_BUFFER_BIT);
+
         gl.vertexAttrib2f(a_position, points[i].x, points[i].y);
         gl.drawArrays(gl.POINTS, 0, 1);
       }
@@ -106,5 +108,8 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .point-demo {
+  canvas {
+    border: 1px solid #ccc;
+  }
 }
 </style>

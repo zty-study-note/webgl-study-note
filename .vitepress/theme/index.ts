@@ -1,8 +1,8 @@
-import Theme from 'vitepress/theme'
+import Theme from "vitepress/theme";
 
-import './css/var.css'
-import './css/style.css'
+import "./css/var.css";
+import "./css/main.css";
 
 export default {
-  ...Theme
-}
+  ...Theme,
+};

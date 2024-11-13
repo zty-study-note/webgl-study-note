@@ -15,13 +15,6 @@ export const headConfig = [
     },
   ],
   [
-    "link",
-    {
-      rel: "stylesheet",
-      href: "/css/main.css",
-    },
-  ],
-  [
     "script",
     {
       src: "/js/fancybox.umd.js",
