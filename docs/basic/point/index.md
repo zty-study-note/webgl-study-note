@@ -107,3 +107,12 @@ const canvas = canvasRef.value;
 ```
 
 <ClientOnly><point /></ClientOnly>
+
+
+:::tip
+
+`gl.drawArrays(mode, first, count)`: 执行顶点着色器，按照mode参数绘制count个顶点，从first开始。参数：
+- `mode`: 绘制模式，可选值有：`POINTS(点)`, `LINES（线段）`, `LINE_STRIP（线条）`, `TRIANGLES（三角形）`, `TRIANGLE_STRIP（三角带）`, `TRIANGLE_FAN（三角扇）`, `LINE_LOOP（回路）`
+- `first`: 绘制起始点, 指定从哪个顶点开始绘制
+- `count`: 绘制时需要用到的顶点数量
+:::

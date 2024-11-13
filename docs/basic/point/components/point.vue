@@ -1,5 +1,6 @@
 <template>
   <div class="point-demo">
+    <a-alert class="mb-2">点击下方画布绘制点.</a-alert>
     <a-card class="flex-center" ref="cardRef">
       <canvas ref="canvasRef" width="500" height="300"></canvas>
     </a-card>
